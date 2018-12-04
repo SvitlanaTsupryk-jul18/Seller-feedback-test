@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SvitlanaTsupryk-jul18/Maket.git"
+    "url": "git+https://github.com/SvitlanaTsupryk-jul18/Seller-feedback-test.git"
   },
   "author": "Svet",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SvitlanaTsupryk-jul18/Maket/issues"
+    "url": "https://github.com/SvitlanaTsupryk-jul18/Seller-feedback-test/issues"
   },
-  "homepage": "https://github.com/SvitlanaTsupryk-jul18/Maket#readme",
+  "homepage": "https://github.com/SvitlanaTsupryk-jul18/Seller-feedback-test#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
