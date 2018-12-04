@@ -32,7 +32,7 @@ body {
         text-transform: uppercase;
         font-weight: 900;
         font-size: 20px;
-        padding: 0 60px 25px 20px;
+        padding: 0 3rem 1.25rem 1rem;
         color: #fff;
         position: relative;
         overflow: hidden;
@@ -63,4 +63,85 @@ body {
 
         }
     }
+}
+
+.comments {
+    max-width: 610px;
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 2rem 0;
+    }
+}
+
+
+.feedback {
+    display: flex;
+
+    &__title {
+        display: flex;
+        font-size: 14px;
+        padding-bottom: 1rem;
+    }
+
+    &__likes {
+        padding-left: 2rem;
+
+        &:hover>* path {
+            fill: #7ED321;
+        }
+    }
+
+    &__like:hover~.feedback__like path {
+        fill: #A7A7A7;
+
+    }
+
+    &__form {
+        width: 100%;
+    }
+
+    &__text {
+        padding: 1rem;
+        border: 1px solid #B9B9B9;
+        border-radius: 4px;
+        background: transparent;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.5);
+        tab-size: 14px;
+        resize: none;
+        font-weight: 300;
+    }
+
+    &__send {
+        display: none;
+    }
+}
+
+.user {
+    position: relative;
+    margin-right: 20px;
+    align-self: flex-start;
+
+    &__foto {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #D8D8D8;
+        //background-image: url();
+
+    }
+
+    &__online {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #7ED321;
+        border: 3px solid #000;
+    }
+
 }
